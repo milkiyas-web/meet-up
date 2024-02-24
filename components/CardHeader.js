@@ -1,8 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
 import logo from '../assets/images/trademark.png'
-import { FaHeartbeat } from "react-icons/fa";
-import { MdKeyboardBackspace } from "react-icons/md";
+// import { FaHeartbeat } from "react-icons/fa";
+// import { MdKeyboardBackspace } from "react-icons/md";
 
 const style = {
     wrapper: `flex flex-row space-x-24  items-center bg-white w-full h-20 p-8`,
@@ -21,7 +21,7 @@ const CardHeader = () => {
             // className={style.profileImage}
         />
         <div className='flex items-center'>
-            <FaHeartbeat />
+            // <FaHeartbeat />
         </div>
     </div>
   )
